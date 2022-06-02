@@ -2585,6 +2585,11 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+	
+	.icon {
+		display: flex;
+		align-items: flex-end;
+	}
 
 /* Image */
 
@@ -2624,8 +2629,20 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.fitthree {
+			margin: 2.5rem 0;
+			width: 25%;
+		}
+
 			.image.fit:first-child {
 				margin-top: 0;
+			}
+
+			.image.fitthree img {
+				width: 100%;
+				padding: 0.2rem;
+				background-color: black;
+				border-radius: 15px;
 			}
 
 			.image.fit img {
@@ -2658,7 +2675,7 @@ input, select, textarea {
 
 		}
 
-	a.image {
+	/* a.image {
 		overflow: hidden;
 	}
 
@@ -2669,12 +2686,13 @@ input, select, textarea {
 			transition: transform 0.2s ease-out;
 		}
 
-		a.image:hover img {
+		a.image:hover img{
 			-moz-transform: scale(1.05);
 			-webkit-transform: scale(1.05);
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
+	*/
 
 /* Actions */
 
@@ -4687,3 +4705,10 @@ input, select, textarea {
 		}
 
 	}
+
+/**** Custom *******/
+ul.icons li:first-child {
+	text-align: right;
+	padding-left: 30px ;
+}
+
