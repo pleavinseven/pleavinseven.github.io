@@ -2389,10 +2389,9 @@ input, select, textarea {
 
 		/* Banner */
 
-			#banner {
-				padding: 0 0;
-				margin: 0 0 0 0;
-			}
+		#banner {
+			background-size: auto 70%;
+		}
 
 		/* Intro */
 
@@ -2867,8 +2866,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 0 0;
-				margin: 0 0 0 0;
+				background-size: auto 55%;
 			}
 
 				#banner header {
